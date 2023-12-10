@@ -32,6 +32,8 @@
   },
   "private": true,
   "dependencies": {
-    "@googlemaps/markerclusterer": "2.3.1"
+    "@googlemaps/markerclusterer": "2.3.1",
+    "@types/xlsx": "^0.0.36",
+    "xlsx": "^0.18.5"
   }
 }

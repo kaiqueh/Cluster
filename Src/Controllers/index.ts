@@ -3,7 +3,9 @@
  * Copyright 2019 Google LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
+
 import { MarkerClusterer } from "@googlemaps/markerclusterer";
+import { readExcel} from "./Excel";
 
 async function initMap() {
   // Request needed libraries.
@@ -80,3 +82,12 @@ const locations = [
 
 initMap();
 export { };
+
+let [data1, data2] = readExcel("C:\\Codigos\\Cluster\\Src\\Models\\Barretos.xlsx", [0, 1])
+
+
+
+console.log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
+
+// console.log(data1)
+// console.log(data2)
